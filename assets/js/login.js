@@ -74,7 +74,7 @@ $("#form_login").on("submit",function(e){
                 localStorage.setItem('token',res.token);
                 layer.msg("登录成功");
                 // 跳转到后台主页
-                // location.href="/index.html";
+                location.href="/index.html";
         }
     })
 
