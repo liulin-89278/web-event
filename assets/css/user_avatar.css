@@ -1,0 +1,89 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #f1f2f5;
+    padding: 25px;
+}
+.layui-form {
+    width: 500px;
+}
+.layui-card-body {
+    width: 500px;
+}
+.row1 {
+    display: flex;
+}
+.row2 {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    float: left;
+}
+.cropper-box {
+    width: 350px;
+    height: 350px;
+    background-color: cyan;
+    overflow: hidden;
+}
+.w100 {
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+}
+
+.w50 {
+    width: 50px;
+    height: 50px;
+    background-color: gray;
+  
+}
+.r1 {
+    width: 100px;
+    height: 100px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.r2 {
+    width: 50px;
+    height: 70px;
+    margin-top: 150px;
+    margin-left: -20px;
+}
+
+
+
+
+
+
+
+.size {
+    font-size: 12px;
+    color: gray;
+    text-align: center;
+}
+
+
+.preview-box {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+}
+
+.img-preview {
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+/* +++++++ */
+#file {
+    display: none;
+}

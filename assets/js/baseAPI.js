@@ -11,9 +11,9 @@ if(options.url.indexOf("/my/")!==-1){
     }
     
 }
-// 每次执行前先确认这个
+// 不管发生的请求成功或者是失败都会调用这个函数
 options.complete=function(res){
-    console.log(res);
+    // console.log(res);
     // 在res当中可以通过res.responseJSON来得到返回的数据
     if(res.responseJSON.status==1&&res.responseJSON.message=="身份认证失败！"){
         localStorage.removeItem("token"); 
